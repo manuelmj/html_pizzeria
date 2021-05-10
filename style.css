@@ -1,0 +1,164 @@
+*{
+   margin: 0px;
+   margin: 0px;
+}
+
+body{
+    background-color: #C7C8C4;
+}
+
+
+.banner{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: center;
+}
+.imgbanner{
+    max-width: 100%;
+}
+
+ li{ 
+    font-size: 16px;
+    margin: 10px 50px;
+  white-space: nowrap;
+}
+
+a{ 
+    
+    text-decoration: none;
+ 
+    font-weight: bold; 
+    font-size: 1.3em;
+    color:black;
+    
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: #A6341B;
+  }
+
+
+.menu{
+list-style-type: none;
+display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-around;
+justify-content:space-around;
+-webkit-align-items:center;
+align-items:center;
+
+}
+
+.barranav{
+    background-color:#F9C743;
+    border: 2px solid #A6341B;
+}
+
+.titulo{
+    padding: 10px;
+    text-align: center;
+}
+
+.contenido{
+    background-color: #94a366;
+}
+.contenidointerno{
+    border: 3px solid#A6341B;
+    background: #d1bf91;
+    margin: 5%;
+}
+.parrafo{
+   padding: 10px;
+   
+    height: 50%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.container{
+    background-color: #A5341B;
+    display: flex;
+    margin: 1%;
+    height: 300px;
+    margin: 100px;
+ }
+
+ .cajapizza{
+    border: 2px solid  #F9C743;
+   
+    margin: 10px;
+ }
+ .imgpizza{
+   height: 100%;
+  
+   
+ }
+
+
+.cajainfo{
+    border: 2px solid #F9C743; 
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    margin:10px;
+}
+
+.descripcion{
+    background-color: #d1bf91;
+    border: 2px solid black ;
+    width: 70%;
+   }
+
+.direccion{
+
+    background-color: #d1bf91;
+    border: 2px solid black ;
+     width: 30%;
+}
+
+
+.formulario{
+
+    border: 5px solid #A5341B;
+    background-color: #d1bf91;
+    display:-webkit-flex;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    margin: 50px;
+    height: 500px;   
+}
+
+.usuario{
+  width:400px ;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.entrada{
+    width: 250px;
+    border: 1px solid black;
+}
+
+.texto{
+    font-weight: bold; 
+    font-size: 1.3em;
+    color:black;
+}
+
+.boton{
+
+height: 35px;
+width: 100px;
+}
+
+.parrafoinfo{
+ padding: 10px;
+
+}
